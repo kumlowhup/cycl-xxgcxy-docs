@@ -1,0 +1,13 @@
+{
+  "name": "cycl-xxgcxy-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "WTFPL",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
