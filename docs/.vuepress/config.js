@@ -6,12 +6,12 @@ module.exports = {
         smoothScroll: true,
         nav: [
             { text: '主页', link: '/' },
-            { text: '正文', link: '/basic/' }],
-        sidebar: [{ title: '目录', path: '/docs' }]
-    },
-    lastUpdated: 'Last Updated',
-    repo: 'reconsidera/reconsidera.github.io',
-    repoLabel: '查看原碼',
-    docsRepo: 'https://github.com/reconsidera/reconsidera.github.io',
-    docsBranch: 'main'
+            { text: '正文', link: '/activities/' }],
+        sidebar: [{ title: '活动申请流程', path: '/activities/', sidebarDepth: 4 }],
+        lastUpdated: 'Last Updated', 
+        repo: 'kumlowhup/cycl-xxgcxy-docs',
+        repoLabel: 'github',
+        docsRepo: 'https://github.com/kumlowhup/cycl-xxgcxy-docs',
+        docsBranch: 'master',
+    }
 }
